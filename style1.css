@@ -1,0 +1,349 @@
+/* style1.css */
+/* হেডলাইনের জন্য Playfair Display */
+.h1, h2, h3,{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* কন্টেন্টের জন্য Merriweather */
+body, p {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  color: white;
+}
+
+
+
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: #0b163b;
+}
+
+.hero-section {
+    background: url('home.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-section .Home {
+    margin-top:40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 10px 0 50px;
+}
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    background-color: #134084;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+
+
+/*nav bar*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-position{
+    position: fixed;
+    width:100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.navbar {
+  background-color: #134084;
+  padding: 3px;
+  text-align: right;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-btn {
+  background-color: #134084;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  background-color: white;
+  border-radius: 0%;
+  width: 20px;
+  height: 1px;
+  margin: 3px 0;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align:left;
+}
+
+.dropdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown ul li {
+  padding: 8px 12px;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown ul li a:hover {
+  background-color: #ddd;
+}
+
+.menu:hover .dropdown {
+  display: block;
+}
+/*page2*/
+
+.page2 {
+  width: 90%;
+  max-width: 600px;
+  margin-left:20px;
+}
+
+.image-section {
+  margin-top:100px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-section {
+    text-align:left;
+}
+
+.text-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: em;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: em;
+  margin-bottom: 25px;
+}
+
+/*page3*/
+.page3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.highlights {
+    background-color: #134084; /* Light blue box background */
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom:50px;
+}
+
+.highlight-item {
+    margin-bottom: 20px;
+}
+
+.highlight-item:last-child {
+    margin-bottom: 0;
+}
+.highlight-item h2,h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.highlight-item h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.highlight-item h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.highlight-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/*page4*/
+.about-section {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #134084; /* Blue background */
+    color: white;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-circle {
+    margin-top:35px;
+    width: 100px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: ;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.learn-more-btn {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b163b; /* Dark button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.learn-more-btn:hover {
+    background-color: #0d255f; /* Lighter hover effect */
+}
+
+/*page5*/
+
+.body5 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#0b163b;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.page5 {
+    
+    
+    
+    text-align: left;
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.whatsapp-btn {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #134084;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.whatsapp-btn:hover {
+    background-color: 0d255f;
+}
